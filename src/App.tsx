@@ -1,32 +1,38 @@
-import { useState ,useEffect} from "react";
+import { useState, useEffect } from "react";
 
 import "./App.css";
 
 function App() {
+
+  const [selectedNavItem, setSelectedNavItem] = useState('Home');
+
+  const handleNavItemSelect = (item:string) => {
+    setSelectedNavItem(item);
+  };
   return (
     <>
       <nav>
         <ul>
-          <li>
+          <li className={selectedNavItem === 'Blog' ? 'selected' : ''} onClick={()=>handleNavItemSelect('Blog')}>
             <a href="#">Blog</a>
           </li>
-          <li>
+          <li className={selectedNavItem === 'About' ? 'selected' : ''} onClick={()=>handleNavItemSelect('About')}>
             <a href="#">About</a>
           </li>
-          <li>
+          <li className={selectedNavItem === 'Work' ? 'selected' : ''} onClick={()=>handleNavItemSelect('Work')}>
             <a href="#">Work 💪🏽</a>
           </li>
-          <li>
-            <a href="https://wwww.read.cv/mubaracktahir">Resume</a>
+          <li className={selectedNavItem === 'Resume' ? 'selected' : ''} onClick={()=>handleNavItemSelect('Resume')}>
+            <a href="https://wwww.read.cv/mubaracktahir" target="_blank">Resume</a>
           </li>
-          <li>
+          <li className={selectedNavItem === 'Contact' ? 'selected' : ''} onClick={()=>handleNavItemSelect('Contact')}>
             <a href="#">Contact</a>
           </li>
         </ul>
       </nav>
       <div className="noise"></div>
       <div className="container">
-        <h1>I'm Mubarack.</h1>
+        <h1>I'm Múbarack.</h1>
         <div className="content">
           <div className="left">
             <div className="image">
@@ -35,33 +41,35 @@ function App() {
 
             <h3>Ream me on</h3>
             <div className="social-icons">
-              <a href="https://www.LinkedIn.com/in/mubaracktahir">
+              <a href="https://www.LinkedIn.com/in/mubaracktahir" target="_blank">
                 <img src="./src/assets/linkedin1.svg" alt="LinkedIn" />
               </a>
-              <a href="https://www.instagram.com/mubaracktahir">
+              <a href="https://www.instagram.com/mubaracktahir" target="_blank">
                 <img src="./src/assets/instagram.svg" alt="Instagram" />
               </a>
-              <a href="https://www.github.com/mubaracktahir">
+              <a href="https://www.github.com/mubaracktahir" target="_blank">
                 <img src="./src/assets/github.svg" alt="Github" />
               </a>
-              <a href="https://www.x.com/mubaracktahir">
+              <a href="https://www.x.com/mubaracktahir" target="_blank">
                 <img src="./src/assets/twitter.svg" alt="Twitter" />
               </a>
               <button>Email me</button>
             </div>
           </div>
           <div className="right">
-            <h2>I’m à Softwàre Engineer Working remotely fromAbujà, Nigerià.</h2>
-            <h4>
+            <h2>
+              I’m à Softwàre Engineer Working remotely from Abujà, Nigerià.
+            </h2>
+            <p>
               Over the last half-decade, I've been the Einstein behind mobile
               apps that have become the darlings of many screens. Crafting
               delightful user experiences is my jam.
-              <br />
-              <br /> If there's one thing I love more than writing code, it's
-              seeing users tap, swipe, and smile their way through my creations.
-              Bring on the next challenge—I'm ready to keep the good times
-              rolling!
-            </h4>
+            </p>
+            <p>
+              If there's one thing I love more than writing code, it's seeing
+              users tap, swipe, and smile their way through my creations. Bring
+              on the next challenge—I'm ready to keep the good times rolling!
+            </p>
           </div>
         </div>
       </div>
