@@ -36,7 +36,7 @@ function App() {
         <div className="content">
           <div className="left">
             <div className="image">
-              <img src="public/static/images/test.svg" alt="Your Image" />
+              <img src={"/public/static/images/test.svg"} alt="Your Image" />
             </div>
 
             <h3>Reach me on</h3>
