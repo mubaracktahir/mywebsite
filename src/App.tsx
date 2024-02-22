@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import MubarackPhoto from '../public/static/images/test.svg'
 import "./App.css";
 
 function App() {
@@ -36,7 +36,7 @@ function App() {
         <div className="content">
           <div className="left">
             <div className="image">
-              <img src={'/public/static/images/test.svg'} alt="Mubarack Tahir" />
+              <img src={MubarackPhoto} alt="Mubarack Tahir" />
             </div>
 
             <h3>Reach me on</h3>
