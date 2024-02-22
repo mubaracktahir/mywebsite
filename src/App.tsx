@@ -1,5 +1,9 @@
 import { useState } from "react";
 import MubarackPhoto from '../public/static/images/test.svg'
+import Instagram from '../public/static/images/instagram.svg'
+import Linkedin from '../public/static/images/linkedin1.svg'
+import Github from '../public/static/images/github.svg'
+import Twitter from '../public/static/images/twitter.svg'
 import "./App.css";
 
 function App() {
@@ -42,16 +46,16 @@ function App() {
             <h3>Reach me on</h3>
             <div className="social-icons">
               <a href="https://www.LinkedIn.com/in/mubaracktahir" target="_blank">
-                <img src="public/static/images/linkedin1.svg" alt="LinkedIn" />
+                <img src={Linkedin} alt="LinkedIn" />
               </a>
               <a href="https://www.instagram.com/mubaracktahir" target="_blank">
-                <img src="public/static/images/instagram.svg" alt="Instagram" />
+                <img src={Instagram} alt="Instagram" />
               </a>
               <a href="https://www.github.com/mubaracktahir" target="_blank">
-                <img src="public/static/images/github.svg" alt="Github" />
+                <img src={Github} alt="Github" />
               </a>
               <a href="https://www.x.com/mubaracktahir" target="_blank">
-                <img src="public/static/images/twitter.svg" alt="Twitter" />
+                <img src={Twitter} alt="Twitter" />
               </a>
               <button>Email me</button>
             </div>
