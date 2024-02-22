@@ -36,22 +36,22 @@ function App() {
         <div className="content">
           <div className="left">
             <div className="image">
-              <img src="./public/test.svg" alt="Your Image" />
+              <img src="public/static/images/test.svg" alt="Your Image" />
             </div>
 
             <h3>Reach me on</h3>
             <div className="social-icons">
               <a href="https://www.LinkedIn.com/in/mubaracktahir" target="_blank">
-                <img src="./public/linkedin1.svg" alt="LinkedIn" />
+                <img src="public/static/images/linkedin1.svg" alt="LinkedIn" />
               </a>
               <a href="https://www.instagram.com/mubaracktahir" target="_blank">
-                <img src="./public/images/instagram.svg" alt="Instagram" />
+                <img src="public/static/images/instagram.svg" alt="Instagram" />
               </a>
               <a href="https://www.github.com/mubaracktahir" target="_blank">
-                <img src="./public/github.svg" alt="Github" />
+                <img src="public/static/images/github.svg" alt="Github" />
               </a>
               <a href="https://www.x.com/mubaracktahir" target="_blank">
-                <img src="./public/twitter.svg" alt="Twitter" />
+                <img src="public/static/images/twitter.svg" alt="Twitter" />
               </a>
               <button>Email me</button>
             </div>
