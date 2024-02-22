@@ -45,7 +45,7 @@ function App() {
                 <img src="./public/linkedin1.svg" alt="LinkedIn" />
               </a>
               <a href="https://www.instagram.com/mubaracktahir" target="_blank">
-                <img src="./public/instagram.svg" alt="Instagram" />
+                <img src="./public/images/instagram.svg" alt="Instagram" />
               </a>
               <a href="https://www.github.com/mubaracktahir" target="_blank">
                 <img src="./public/github.svg" alt="Github" />
