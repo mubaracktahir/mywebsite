@@ -6,9 +6,11 @@ import Github from '../public/static/images/github.svg'
 import Twitter from '../public/static/images/twitter.svg'
 import "./App.css";
 
+
+
 function App() {
 
-  const [selectedNavItem, setSelectedNavItem] = useState('Home');
+  const [selectedNavItem, setSelectedNavItem] = useState('About');
 
   const handleNavItemSelect = (item:string) => {
     setSelectedNavItem(item);
@@ -34,7 +36,7 @@ function App() {
           </li>
         </ul>
       </nav>
-      <div className="noise"></div>
+      {/*<div className="noise"></div>*/}
       <div className="container">
         <h1>I'm Múbarack.</h1>
         <div className="content">
