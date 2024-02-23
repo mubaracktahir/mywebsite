@@ -33,6 +33,7 @@ nav ul li a {
   border-radius: 50px;
   padding: 5px 8px;
   background-color: #D4AF37; 
+  transition: width 0.3s ease, left 0.3s ease;
 }
 
 .noise {
