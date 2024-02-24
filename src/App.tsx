@@ -10,9 +10,10 @@ import "./App.css";
 
 function App() {
 
-  const [selectedNavItem, setSelectedNavItem] = useState('About');
+  type buttonState = "About" | "Blog" | "Resume" | "Work" | "Contact" 
+  const [selectedNavItem, setSelectedNavItem] = useState<buttonState>('About');
 
-  const handleNavItemSelect = (item:string) => {
+  const handleNavItemSelect = (item:buttonState) => {
     setSelectedNavItem(item);
   };
   return (
@@ -59,7 +60,7 @@ function App() {
               <a href="https://www.x.com/mubaracktahir" target="_blank">
                 <img src={Twitter} alt="Twitter" />
               </a>
-              <button>Email me</button>
+              <button className="emailMe">Email me</button>
             </div>
           </div>
           <div className="right">
