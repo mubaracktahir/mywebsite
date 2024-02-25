@@ -65,7 +65,7 @@ function App() {
           </div>
           <div className="right">
             <h2>
-              I’m à Softwàre Engineer Working remotely from Abujà, Nigerià.
+              I'm a Software Engineer Working remotely from Abuja, Nigeria.
             </h2>
             <p>
               Over the last half-decade, I've been the Einstein behind mobile

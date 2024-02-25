@@ -66,7 +66,7 @@ nav ul li a {
 
 
 .left {
-  width: 45%;
+  width: 50%;
   margin: 0px;
 }
 .left h3{
@@ -106,13 +106,11 @@ nav ul li a {
 
 
 .right {
+  max-width: 580px;
   width: 50%;
   display: flex;
-  max-width: 580px;
   flex-direction:column;
   text-align:left;
-  margin-bottom: 200px;
-
 }
 
 .right h2{
