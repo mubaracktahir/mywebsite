@@ -14,33 +14,8 @@
   pointer-events: none; 
   z-index: -1; 
 }
-
-@media (prefers-color-scheme: light) {
- 
-  .selected a{
-    color: white;
-  }
-  .container h1{
-   color: #646464;
-  }
-
-  .container h2{
-    color: #646464;
-   }
-
-  .left h3{
-    color: #646464;
-   }
-  nav ul li a {
-    color: black;
-  }
-  .social-icons img{
-    filter: invert(1);
-  }
-  .left a{
-    background-color: #646464;
-  }
-  
+.appContainer{
+  margin: 10px;
 }
 
 

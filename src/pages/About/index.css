@@ -116,10 +116,36 @@
   }
   .right p {
     line-height: 30px;
+    font-size: 14.5px;
   }
   .image img {
     max-width: 80%;
     height: 80%;
     margin-bottom: 20px;
+  }
+}
+
+
+@media (prefers-color-scheme: light) {
+  
+  .selected a{
+    color: white;
+  }
+  .container h1{
+   color: #646464;
+  }
+
+  .container h2{
+    color: #646464;
+   }
+
+  .left h3{
+    color: #646464;
+   }
+  .social-icons img{
+    filter: invert(1);
+  }
+  .left a{
+    background-color: #646464;
   }
 }
