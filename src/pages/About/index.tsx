@@ -3,7 +3,7 @@ import Instagram from "/public/static/images/instagram.svg";
 import Linkedin from "/public/static/images/linkedin1.svg";
 import Github from "/public/static/images/github.svg";
 import Twitter from "/public/static/images/twitter.svg";
-
+import './index.css'
 function About() {
   return (
     <div className="container">
