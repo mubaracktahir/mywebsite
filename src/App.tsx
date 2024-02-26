@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { Routes, Route, NavLink } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Work from "./pages/Work";
