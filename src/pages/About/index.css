@@ -75,7 +75,7 @@
     flex-direction: column;
   }
   .container h1 {
-    font-size: 30px;
+    font-size: 50px;
   }
   .content {
     margin: 0;
@@ -90,6 +90,9 @@
     width: 100%;
   }
 
+  .social-icons{
+    margin: 0px;
+  }
   .social-icons a img {
     max-width: 100%;
     max-height: 100%;
@@ -107,8 +110,11 @@
   }
   .right h2 {
     color: #fbf0cb;
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 20px;
+    line-height: 38px;
+  }
+  .right p {
     line-height: 30px;
   }
   .image img {
