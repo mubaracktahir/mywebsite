@@ -20,7 +20,7 @@ function NavBar() {
       </div>
       <ul>
         <li>
-          <NavLink to="/blog">Blog</NavLink>
+          <NavLink to="https://mubaracktahir.hashnode.dev/">Blog</NavLink>
         </li>
         <li>
           <NavLink to="/">About</NavLink>
