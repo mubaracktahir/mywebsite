@@ -1,8 +1,8 @@
-import MubarackPhoto from "/public/static/images/test.svg";
-import Instagram from "/public/static/images/instagram.svg";
-import Linkedin from "/public/static/images/linkedin1.svg";
-import Github from "/public/static/images/github.svg";
-import Twitter from "/public/static/images/twitter.svg";
+import MubarackPhoto from "/src/assets/images/test.svg";
+import Instagram from "/src/assets/images/instagram.svg";
+import Linkedin from "/src/assets/images/linkedin1.svg";
+import Github from "/src/assets/images/github.svg";
+import Twitter from "/src/assets/images/twitter.svg";
 import './index.css'
 function About() {
   return (
